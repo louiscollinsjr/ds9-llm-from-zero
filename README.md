@@ -1,8 +1,8 @@
 # DS9 — Let's Build an LLM
 
-> *What I cannot create, I do not understand.* — Richard Feynman
+A ground-up LLM build: character-level transformer trained on DS9 scripts to understand attention and sequence modeling from first principles.
 
-A ground-up LLM build: character-level transformer trained on DS9 scripts to demystify attention and sequence modeling.
+![Deep Space Nine](ds9-wallpaper.jpg)
 
 ---
 
@@ -11,8 +11,6 @@ A ground-up LLM build: character-level transformer trained on DS9 scripts to dem
 In 2017, a team at Google published "Attention Is All You Need." The transformer was born. And it changed everything.
 
 This series builds a character-level language model from scratch, trained on Star Trek: Deep Space Nine scripts, that generates new scenes. By the end, you'll understand how transformers actually work — not from reading about them, but from building one.
-
-We follow the philosophy of Andrej Karpathy's [LLM101n](https://github.com/karpathy/LLM101n) — but we're building it. Python and PyTorch only. No prerequisites beyond curiosity.
 
 ---
 
@@ -28,24 +26,21 @@ A single file — `ds9_transformer.py` — that:
 
 ## Syllabus
 
-| # | Section | What we cover |
-|---|---------|--------|
-| 0 | **Introduction** | What we're building and why it matters |
-| 1 | **What Is a Language Model?** | A guessing machine — tokens, numbers, predictions |
-| 2 | **Getting the Data** | Scraping DS9 scripts and preparing them for training |
-| 3 | **The Bigram Model** | The simplest possible guesser — one character at a time |
-| 4 | **Why Bigrams Fail** | What happens when context matters and we have none |
-| 5 | **Self-Attention from Scratch** | Teaching the model to look back at what it's already seen |
-| 6 | **Multi-Head Attention** | Looking at the same sequence from multiple angles at once |
-| 7 | **The Transformer Block** | Wiring attention, normalization, and feed-forward into one unit |
-| 8 | **Stacking + Positional Encoding** | Going deeper, and giving the model a sense of order |
-| 9 | **Training for Real** | Loss, gradients, AdamW, and when to stop |
-| 10 | **Generating Text** | Sampling from the model — temperature, randomness, control |
-| 11 | **Reading the Output** | What did it actually learn? Interpreting generated DS9 scenes |
-| 12 | **Tokenization Done Right** | Why characters aren't enough — intro to byte pair encoding |
-| 13 | **Fine-Tuning** | Adapting a trained model with less data and fewer resources |
-| 14 | **RLHF** | Teaching the model what "good output" means using feedback |
-| 15 | **Where to Go Next** | The gap between our toy model and production LLMs |
+- Chapter 1: Introduction (What we're building and why it matters)
+- Chapter 2: What Is a Language Model? (A guessing machine — tokens, numbers, predictions)
+- Chapter 3: Getting the Data (Scraping DS9 scripts and preparing them for training)
+- Chapter 4: The Bigram Model (The simplest possible guesser — one character at a time)
+- Chapter 5: Why Bigrams Fail (What happens when context matters and we have none)
+- Chapter 6: Self-Attention from Scratch (Teaching the model to look back at what it's already seen)
+- Chapter 7: Multi-Head Attention (Looking at the same sequence from multiple angles at once)
+- Chapter 8: The Transformer Block (Wiring attention, normalization, and feed-forward into one unit)
+- Chapter 9: Stacking + Positional Encoding (Going deeper, and giving the model a sense of order)
+- Chapter 10: Training for Real (Loss, gradients, AdamW, and when to stop)
+- Chapter 11: Generating Text (Sampling from the model — temperature, randomness, control)
+- Chapter 12: Reading the Output (What did it actually learn? Interpreting generated DS9 scenes)
+- Chapter 13: Tokenization Done Right (Why characters aren't enough — intro to byte pair encoding)
+- Chapter 14: Fine-Tuning (Adapting a trained model with less data and fewer resources)
+- Chapter 15: RLHF (Teaching the model what "good output" means using feedback)
 
 ---
 
@@ -77,7 +72,7 @@ Each section is written to stand alone — you can read them in order or jump to
 
 This project builds on foundational work — from the researchers who introduced the transformer architecture, to educators like Andrej Karpathy, and the writers of Star Trek: Deep Space Nine whose scripts make the dataset possible.
 
-All code here is written from scratch. We start with counting character pairs and work our way up to a full transformer, including fine-tuning. The goal is understanding through construction — learning the mechanics by implementing them.
+We start with counting character pairs and work our way up to a full transformer, including fine-tuning. The goal is understanding through construction — learning the mechanics by implementing them.
 
 If you’ve read about transformers but want to truly understand how they work under the hood, this repository is for you.
 
