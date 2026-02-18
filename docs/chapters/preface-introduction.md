@@ -2,6 +2,9 @@
 
 **Summary:** What we're building and why it matters.
 
+---
+
+## Introduction
 
 This series is about building intelligence from the ground up.
 
@@ -9,7 +12,7 @@ In 2017, a team at Google published a paper called "Attention Is All You Need." 
 
 A transformer is a type of neural network that processes sequences of data like text, pixels, or sound waves using attention. If that sounds abstract, that's OK. We'll fix that.
 
-🟡 We're going to build a character-level language model from scratch, trained on Star Trek: Deep Space Nine scripts, that can generate new scenes. And by the end, you'll understand how transformers work.
+> We're going to build a character-level language model from scratch, trained on Star Trek: Deep Space Nine scripts, that can generate new scenes. And by the end, you'll understand how transformers work.
 
 We'll start with the fundamentals.
 
