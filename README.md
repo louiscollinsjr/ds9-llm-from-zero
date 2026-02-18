@@ -26,21 +26,23 @@ A single file — `ds9_transformer.py` — that:
 
 ## Syllabus
 
-- Chapter 01: Introduction (What we're building and why it matters)
-- Chapter 02: What Is a Language Model? (A guessing machine — tokens, numbers, predictions)
-- Chapter 03: Getting the Data (Scraping DS9 scripts and preparing them for training)
-- Chapter 04: The Bigram Model (The simplest possible guesser — one character at a time)
-- Chapter 05: Why Bigrams Fail (What happens when context matters and we have none)
-- Chapter 06: Self-Attention from Scratch (Teaching the model to look back at what it's already seen)
-- Chapter 07: Multi-Head Attention (Looking at the same sequence from multiple angles at once)
-- Chapter 08: The Transformer Block (Wiring attention, normalization, and feed-forward into one unit)
-- Chapter 09: Stacking + Positional Encoding (Going deeper, and giving the model a sense of order)
-- Chapter 10: Training for Real (Loss, gradients, AdamW, and when to stop)
-- Chapter 11: Generating Text (Sampling from the model — temperature, randomness, control)
-- Chapter 12: Reading the Output (What did it actually learn? Interpreting generated DS9 scenes)
-- Chapter 13: Tokenization Done Right (Why characters aren't enough — intro to byte pair encoding)
-- Chapter 14: Fine-Tuning (Adapting a trained model with less data and fewer resources)
-- Chapter 15: RLHF (Teaching the model what "good output" means using feedback)
+Each chapter has its own markdown in `docs/chapters/`. Checklist shows completion status.
+
+- [x] Preface: [Introduction](docs/chapters/preface-introduction.md) (What we're building and why it matters)
+- [x] [Chapter 01: What Is a Language Model?](docs/chapters/chapter-01-what-is-a-language-model.md) (A guessing machine — tokens, numbers, predictions)
+- [ ] [Chapter 02: Getting the Data](docs/chapters/chapter-02-getting-the-data.md) (Scraping DS9 scripts and preparing them for training)
+- [ ] [Chapter 03: The Bigram Model](docs/chapters/chapter-03-the-bigram-model.md) (The simplest possible guesser — one character at a time)
+- [ ] [Chapter 04: Why Bigrams Fail](docs/chapters/chapter-04-why-bigrams-fail.md) (What happens when context matters and we have none)
+- [ ] [Chapter 05: Self-Attention from Scratch](docs/chapters/chapter-05-self-attention-from-scratch.md) (Teaching the model to look back at what it's already seen)
+- [ ] [Chapter 06: Multi-Head Attention](docs/chapters/chapter-06-multi-head-attention.md) (Looking at the same sequence from multiple angles at once)
+- [ ] [Chapter 07: The Transformer Block](docs/chapters/chapter-07-transformer-block.md) (Wiring attention, normalization, and feed-forward into one unit)
+- [ ] [Chapter 08: Stacking + Positional Encoding](docs/chapters/chapter-08-stacking-and-positional-encoding.md) (Going deeper, and giving the model a sense of order)
+- [ ] [Chapter 09: Training for Real](docs/chapters/chapter-09-training-for-real.md) (Loss, gradients, AdamW, and when to stop)
+- [ ] [Chapter 10: Generating Text](docs/chapters/chapter-10-generating-text.md) (Sampling from the model — temperature, randomness, control)
+- [ ] [Chapter 11: Reading the Output](docs/chapters/chapter-11-reading-the-output.md) (What did it actually learn? Interpreting generated DS9 scenes)
+- [ ] [Chapter 12: Tokenization Done Right](docs/chapters/chapter-12-tokenization-done-right.md) (Why characters aren't enough — intro to byte pair encoding)
+- [ ] [Chapter 13: Fine-Tuning](docs/chapters/chapter-13-fine-tuning.md) (Adapting a trained model with less data and fewer resources)
+- [ ] [Chapter 14: RLHF](docs/chapters/chapter-14-rlhf.md) (Teaching the model what "good output" means using feedback)
 
 ---
 
