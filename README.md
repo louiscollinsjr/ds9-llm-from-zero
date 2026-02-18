@@ -14,7 +14,7 @@ This series builds a character-level language model from scratch, trained on Sta
 
 ---
 
-## What you'll build
+## What we'll build
 
 A single file — `ds9_transformer.py` — that:
 

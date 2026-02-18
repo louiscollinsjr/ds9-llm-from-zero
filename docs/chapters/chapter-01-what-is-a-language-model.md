@@ -6,6 +6,9 @@
 - Explain tokens, vocabularies, and probability distributions.
 - Show how models predict the next token.
 
+---
+
+## What Is a Language Model?
 
 A language model is a guessing machine. You give it part of a sentence, and it guesses what comes next. That's it.
 
@@ -23,8 +26,6 @@ The reason it feels like understanding is because during training, it saw billio
 
 So how does the model actually process "What is the capital of France?" It doesn't see words. It sees tokens.
 
-
-
 ## Tokens
 
 **A token is a chunk of text.** Sometimes it's a whole word like “fall”. Sometimes it's part of a word like "un" or "break". Sometimes it's just punctuation.
@@ -34,16 +35,21 @@ Why not just use words? Because language is messy.
 If the model only knew complete words, what happens when it sees "unbreakable"? Does it need to memorize every possible combination — "breakable," "unbreakable," "unbreakably"? That's millions of words to store.
 
 Here's "What is the capital of France?" broken into tokens:
+
+```
 ["What", " is", " the", " capital", " of", " France", "?"]
+```
 
 Each token becomes a number:
+
+```
 [2254, 318, 262, 3139, 286, 4881, 30]
+```
 
 Now the model can do math. It takes these numbers, runs calculations, and predicts the next number. That number maps back to a token — like "Paris".
 
 
-Words become tokens. Tokens become numbers. Numbers become predictions
-
+> Words become tokens. Tokens become numbers. Numbers become predictions.
 
 ## Notes
 _TBD as the chapter is written._
