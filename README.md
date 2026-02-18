@@ -4,8 +4,6 @@
 
 A ground-up LLM build: character-level transformer trained on DS9 scripts to demystify attention and sequence modeling.
 
-![Deep Space Nine](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Deep_Space_Nine_Terok_Nor.jpg/800px-Deep_Space_Nine_Terok_Nor.jpg)
-
 ---
 
 ## What is this?
